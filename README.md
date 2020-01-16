@@ -4,6 +4,12 @@
 
 ## OPEN-SOURSE
 
+![open-soruse](open-soruse-logo.png)
+
+### Website
+
+Hello! This is an open organization in which everyone can do whatever they want! 💖
+
 ---
 
 ### Bash :-)

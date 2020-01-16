@@ -10,7 +10,7 @@
 
 ```BASH
 
-laravel new clone
+laravel new open-soruse
 
 php artisan serve
 

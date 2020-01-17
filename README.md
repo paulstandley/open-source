@@ -32,4 +32,26 @@ composer require laravel/telescope --dev
 
 php artisan telescope:install
 
+
+```
+
+After running __telescope:install__,
+you should remove the __TelescopeServiceProvider__
+service provider registration from your __app__ configuration file. Instead, manually register the service provider
+in the __register__ method of your __AppServiceProvider__
+
+```PHP
+
+/**
+ * Register any application services.
+ *
+ * @return void
+ */
+public function register()
+{
+    if ($this->app->isLocal()) {
+        $this->app->register(TelescopeServiceProvider::class);
+    }
+}
+
 ```

@@ -6,13 +6,15 @@
 
 ![open-soruse](open-soruse-logo.png)
 
-### Website
-
 Hello! This is an open organization in which everyone can do whatever they want! 💖
+
+### Website open-sourse
 
 ---
 
-### Bash :-)
+## **Laravel 6**
+
+### Bash **:-)**
 
 ```BASH
 
@@ -25,5 +27,9 @@ composer require laravel/ui --dev
 php artisan ui react --auth
 
 npm install && npm run dev
+
+composer require laravel/telescope --dev
+
+php artisan telescope:install
 
 ```

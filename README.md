@@ -14,7 +14,9 @@ Hello! This is an open organization in which everyone can do whatever they want!
 
 ## **Laravel 6**
 
-### Bash **:-)**
+[DOCS](https://laravel.com/docs/6.x)
+
+### BASH **:-)**
 
 ```BASH
 
@@ -39,6 +41,8 @@ After running __telescope:install__,
 you should remove the __TelescopeServiceProvider__
 service provider registration from your __app__ configuration file. Instead, manually register the service provider
 in the __register__ method of your __AppServiceProvider__
+
+### PHP **:-)**
 
 ```PHP
 
